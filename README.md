@@ -25,6 +25,7 @@
 flyway.url= jdbc:postgresql://localhost:5432/sejdeldb
 flyway.user=flyway
 flyway.password=123
+flyway.locations=filesystem:/home/ ... /SejdelDB/sql/
 7. Test everything by running:
 	- flyway info
 
