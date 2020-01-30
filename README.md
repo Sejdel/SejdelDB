@@ -21,7 +21,7 @@
 	- postgres=# create database sejdeldb;
 	- postgres=# create user flyway with encrypted password '123';
 	- postgres=# grant all privileges on database sejdeldb to flyway;
-6. Edit the flyway conf found in the flyway installation:
+6. Edit the flyway conf found in the flyway installation. Make sure you have no trailing whitespace and that you do not unassign the variables (remove everything else works):
 ```bash
 flyway.url=jdbc:postgresql://localhost:5432/sejdeldb  
 flyway.user=flyway  
