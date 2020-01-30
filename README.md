@@ -32,6 +32,10 @@ flyway.locations=filesystem:/home/ ... /SejdelDB/sql/
 ```bash
 flyway info
 ```
+8. Migrate the database using flyway
+```bash
+flyway migrate
+```
 
 
 
